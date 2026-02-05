@@ -1,8 +1,9 @@
+import patty from "../assets/images/patty2hd-recortado.png";
 export default function Hero() {
   return (
     <section className="hero h-screen relative flex items-center justify-center">
       <img
-        src="/src/assets/images/patty2hd-recortado.png"
+        src={patty}
         alt="Artista"
         className="absolute inset-0 w-[60%] h-auto object-cover"
       />
